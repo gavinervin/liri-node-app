@@ -2,7 +2,7 @@ var keys = require('./keys.js');
 var Twitter = require('twitter');
 var spotify = require('node-spotify-api');
 var request = require('request');
-var fs = require('request');
+var fs = require('fs');
 
 var tweetMe = function(){
 
